@@ -29,6 +29,7 @@ class HKSetupAssistant {
     
     class func authorizeHK(completion: @escaping (Bool, Error?) -> ()) {
         guard HKHealthStore.isHealthDataAvailable() else {
+            print("False, Not available")
             completion(false, HealthkitSetupError.notAvailable)
             return
         }
@@ -41,6 +42,7 @@ class HKSetupAssistant {
               let bodyMass = HKObjectType.quantityType(forIdentifier: .bodyMass),
               let activeEnergy = HKObjectType.quantityType(forIdentifier: .activeEnergyBurned) else {
             
+            print("False, DATA TYPE Not available")
             completion(false, HealthkitSetupError.dataTypeNotAvailable)
             return
         }
@@ -59,7 +61,8 @@ class HKSetupAssistant {
         
         HKHealthStore().requestAuthorization(toShare: healthKitTypesToWrite,
                                              read: healthKitTypesToRead) { (success, error) in
-          completion(success, error)
+            print("\(success), Error: \(String(describing: error?.localizedDescription))")
+            completion(success, error)
         }
     }
 }
