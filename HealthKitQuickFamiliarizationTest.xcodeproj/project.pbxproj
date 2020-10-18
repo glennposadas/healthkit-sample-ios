@@ -14,6 +14,7 @@
 		457FD02B253B6B010067FCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457FD02A253B6B010067FCEB /* Assets.xcassets */; };
 		457FD02E253B6B010067FCEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FD02C253B6B010067FCEB /* LaunchScreen.storyboard */; };
 		457FD03A253C2AEA0067FCEB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FD039253C2AEA0067FCEB /* HealthKit.framework */; };
+		457FD03D253C2E750067FCEB /* HKSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		457FD02F253B6B010067FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457FD037253C2AEA0067FCEB /* HealthKitQuickFamiliarizationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthKitQuickFamiliarizationTest.entitlements; sourceTree = "<group>"; };
 		457FD039253C2AEA0067FCEB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSetupAssistant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				457FD02A253B6B010067FCEB /* Assets.xcassets */,
 				457FD02C253B6B010067FCEB /* LaunchScreen.storyboard */,
 				457FD02F253B6B010067FCEB /* Info.plist */,
+				457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */,
 			);
 			path = HealthKitQuickFamiliarizationTest;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				457FD026253B6B010067FCEB /* ViewController.swift in Sources */,
 				457FD022253B6B010067FCEB /* AppDelegate.swift in Sources */,
 				457FD024253B6B010067FCEB /* SceneDelegate.swift in Sources */,
+				457FD03D253C2E750067FCEB /* HKSetupAssistant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
