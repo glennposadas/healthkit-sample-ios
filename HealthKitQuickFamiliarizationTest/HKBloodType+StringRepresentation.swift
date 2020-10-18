@@ -43,6 +43,8 @@ extension HKBloodType {
     case .abNegative: return "AB-"
     case .oPositive: return "O+"
     case .oNegative: return "O-"
+    @unknown default:
+        return "Unknown"
     }
   }
 }
