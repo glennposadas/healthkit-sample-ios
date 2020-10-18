@@ -16,6 +16,7 @@
 		457FD03A253C2AEA0067FCEB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FD039253C2AEA0067FCEB /* HealthKit.framework */; };
 		457FD03D253C2E750067FCEB /* HKSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */; };
 		457FD041253CAB3D0067FCEB /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */; };
+		457FD045253CACBA0067FCEB /* DataViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD044253CACBA0067FCEB /* DataViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		457FD039253C2AEA0067FCEB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSetupAssistant.swift; sourceTree = "<group>"; };
 		457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
+		457FD044253CACBA0067FCEB /* DataViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				457FD02F253B6B010067FCEB /* Info.plist */,
 				457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */,
 				457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */,
+				457FD044253CACBA0067FCEB /* DataViewerViewController.swift */,
 			);
 			path = HealthKitQuickFamiliarizationTest;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				457FD041253CAB3D0067FCEB /* ProfileDataStore.swift in Sources */,
 				457FD022253B6B010067FCEB /* AppDelegate.swift in Sources */,
 				457FD024253B6B010067FCEB /* SceneDelegate.swift in Sources */,
+				457FD045253CACBA0067FCEB /* DataViewerViewController.swift in Sources */,
 				457FD03D253C2E750067FCEB /* HKSetupAssistant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -61,7 +61,7 @@
         <!--Health Details-->
         <scene sceneID="YdZ-h3-4Ew">
             <objects>
-                <viewController id="Obh-CL-5IG" customClass="ViewController" customModule="HealthKitQuickFamiliarizationTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Obh-CL-5IG" customClass="DataViewerViewController" customModule="HealthKitQuickFamiliarizationTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wwa-Bk-sQx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
