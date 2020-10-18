@@ -17,6 +17,7 @@
 		457FD03D253C2E750067FCEB /* HKSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */; };
 		457FD041253CAB3D0067FCEB /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */; };
 		457FD045253CACBA0067FCEB /* DataViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD044253CACBA0067FCEB /* DataViewerViewController.swift */; };
+		457FD048253CAF340067FCEB /* UserHealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD047253CAF340067FCEB /* UserHealthProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSetupAssistant.swift; sourceTree = "<group>"; };
 		457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
 		457FD044253CACBA0067FCEB /* DataViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewerViewController.swift; sourceTree = "<group>"; };
+		457FD047253CAF340067FCEB /* UserHealthProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHealthProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */,
 				457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */,
 				457FD044253CACBA0067FCEB /* DataViewerViewController.swift */,
+				457FD047253CAF340067FCEB /* UserHealthProfile.swift */,
 			);
 			path = HealthKitQuickFamiliarizationTest;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457FD048253CAF340067FCEB /* UserHealthProfile.swift in Sources */,
 				457FD026253B6B010067FCEB /* ViewController.swift in Sources */,
 				457FD041253CAB3D0067FCEB /* ProfileDataStore.swift in Sources */,
 				457FD022253B6B010067FCEB /* AppDelegate.swift in Sources */,
