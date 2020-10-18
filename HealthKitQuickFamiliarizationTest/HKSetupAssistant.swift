@@ -25,6 +25,8 @@ extension HealthkitSetupError: LocalizedError {
 }
 
 class HKSetupAssistant {
+    private init() { }
+    
     class func authorizeHK(completion: @escaping (Bool, Error?) -> ()) {
         guard HKHealthStore.isHealthDataAvailable() else {
             completion(false, HealthkitSetupError.notAvailable)
@@ -54,5 +56,10 @@ class HKSetupAssistant {
                                                        height,
                                                        bodyMass,
                                                        HKObjectType.workoutType()]
+        
+        HKHealthStore().requestAuthorization(toShare: healthKitTypesToWrite,
+                                             read: healthKitTypesToRead) { (success, error) in
+          completion(success, error)
+        }
     }
 }
