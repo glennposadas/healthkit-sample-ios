@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>App needs record usage</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>App needs share usage</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>App needs update usage</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
