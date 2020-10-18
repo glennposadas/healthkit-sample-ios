@@ -5,8 +5,8 @@
 //  Created by Glenn Posadas on 10/18/20.
 //
 
-import HealthKit
 import Foundation
+import HealthKit
 
 enum HealthkitSetupError: Error {
     case notAvailable
