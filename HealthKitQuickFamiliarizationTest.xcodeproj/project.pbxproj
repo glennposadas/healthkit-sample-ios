@@ -13,6 +13,7 @@
 		457FD029253B6B010067FCEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FD027253B6B010067FCEB /* Main.storyboard */; };
 		457FD02B253B6B010067FCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457FD02A253B6B010067FCEB /* Assets.xcassets */; };
 		457FD02E253B6B010067FCEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FD02C253B6B010067FCEB /* LaunchScreen.storyboard */; };
+		457FD03A253C2AEA0067FCEB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FD039253C2AEA0067FCEB /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		457FD02A253B6B010067FCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		457FD02D253B6B010067FCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		457FD02F253B6B010067FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457FD037253C2AEA0067FCEB /* HealthKitQuickFamiliarizationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthKitQuickFamiliarizationTest.entitlements; sourceTree = "<group>"; };
+		457FD039253C2AEA0067FCEB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457FD03A253C2AEA0067FCEB /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				457FD020253B6B010067FCEB /* HealthKitQuickFamiliarizationTest */,
 				457FD01F253B6B010067FCEB /* Products */,
+				457FD038253C2AEA0067FCEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +61,7 @@
 		457FD020253B6B010067FCEB /* HealthKitQuickFamiliarizationTest */ = {
 			isa = PBXGroup;
 			children = (
+				457FD037253C2AEA0067FCEB /* HealthKitQuickFamiliarizationTest.entitlements */,
 				457FD021253B6B010067FCEB /* AppDelegate.swift */,
 				457FD023253B6B010067FCEB /* SceneDelegate.swift */,
 				457FD025253B6B010067FCEB /* ViewController.swift */,
@@ -65,6 +71,14 @@
 				457FD02F253B6B010067FCEB /* Info.plist */,
 			);
 			path = HealthKitQuickFamiliarizationTest;
+			sourceTree = "<group>";
+		};
+		457FD038253C2AEA0067FCEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457FD039253C2AEA0067FCEB /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthKitQuickFamiliarizationTest/HealthKitQuickFamiliarizationTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE4YFXSB23;
 				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Info.plist;
@@ -305,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthKitQuickFamiliarizationTest/HealthKitQuickFamiliarizationTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE4YFXSB23;
 				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Info.plist;
