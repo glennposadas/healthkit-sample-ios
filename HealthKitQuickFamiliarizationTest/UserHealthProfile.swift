@@ -11,7 +11,7 @@ import HealthKit
 class UserHealthProfile {
     
     var age: Int?
-    var biologicalSex: HKBiologicalSex?
+    var sex: HKBiologicalSex?
     var bloodType: HKBloodType?
     var heightInMeters: Double?
     var weightInKilograms: Double?
