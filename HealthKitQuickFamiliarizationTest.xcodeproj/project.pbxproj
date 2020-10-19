@@ -380,10 +380,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HealthKitQuickFamiliarizationTest/HealthKitQuickFamiliarizationTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HealthKitQuickFamiliarizationTest/App/HealthKitQuickFamiliarizationTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE4YFXSB23;
-				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Info.plist;
+				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,10 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HealthKitQuickFamiliarizationTest/HealthKitQuickFamiliarizationTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HealthKitQuickFamiliarizationTest/App/HealthKitQuickFamiliarizationTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE4YFXSB23;
-				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Info.plist;
+				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
