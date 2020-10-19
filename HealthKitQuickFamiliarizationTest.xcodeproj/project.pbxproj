@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		457FD048253CAF340067FCEB /* UserHealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD047253CAF340067FCEB /* UserHealthProfile.swift */; };
 		457FD050253CAFE70067FCEB /* HKBiologicalSex+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD04E253CAFE70067FCEB /* HKBiologicalSex+StringRepresentation.swift */; };
 		457FD051253CAFE70067FCEB /* HKBloodType+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD04F253CAFE70067FCEB /* HKBloodType+StringRepresentation.swift */; };
+		457FD0EB253D95E00067FCEB /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 457FD0EA253D95E00067FCEB /* Charts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				457FD03A253C2AEA0067FCEB /* HealthKit.framework in Frameworks */,
+				457FD0EB253D95E00067FCEB /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +173,9 @@
 			dependencies = (
 			);
 			name = HealthKitQuickFamiliarizationTest;
+			packageProductDependencies = (
+				457FD0EA253D95E00067FCEB /* Charts */,
+			);
 			productName = HealthKitQuickFamiliarizationTest;
 			productReference = 457FD01E253B6B010067FCEB /* HealthKitQuickFamiliarizationTest.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +203,9 @@
 				Base,
 			);
 			mainGroup = 457FD015253B6B010067FCEB;
+			packageReferences = (
+				457FD0E9253D95E00067FCEB /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 457FD01F253B6B010067FCEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -439,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		457FD0E9253D95E00067FCEB /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		457FD0EA253D95E00067FCEB /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 457FD0E9253D95E00067FCEB /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 457FD016253B6B010067FCEB /* Project object */;
 }
