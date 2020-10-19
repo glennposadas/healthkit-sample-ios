@@ -73,20 +73,12 @@
 		457FD020253B6B010067FCEB /* HealthKitQuickFamiliarizationTest */ = {
 			isa = PBXGroup;
 			children = (
-				457FD037253C2AEA0067FCEB /* HealthKitQuickFamiliarizationTest.entitlements */,
-				457FD04E253CAFE70067FCEB /* HKBiologicalSex+StringRepresentation.swift */,
-				457FD04F253CAFE70067FCEB /* HKBloodType+StringRepresentation.swift */,
-				457FD021253B6B010067FCEB /* AppDelegate.swift */,
-				457FD023253B6B010067FCEB /* SceneDelegate.swift */,
-				457FD025253B6B010067FCEB /* ViewController.swift */,
-				457FD027253B6B010067FCEB /* Main.storyboard */,
-				457FD02A253B6B010067FCEB /* Assets.xcassets */,
-				457FD02C253B6B010067FCEB /* LaunchScreen.storyboard */,
-				457FD02F253B6B010067FCEB /* Info.plist */,
-				457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */,
-				457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */,
-				457FD044253CACBA0067FCEB /* DataViewerViewController.swift */,
-				457FD047253CAF340067FCEB /* UserHealthProfile.swift */,
+				457FD0DE253D93550067FCEB /* App */,
+				457FD0E1253D937C0067FCEB /* Assets */,
+				457FD0DD253D934A0067FCEB /* Controllers */,
+				457FD0E2253D93870067FCEB /* Data */,
+				457FD0E0253D93710067FCEB /* Plists */,
+				457FD0DF253D935E0067FCEB /* Storyboards */,
 			);
 			path = HealthKitQuickFamiliarizationTest;
 			sourceTree = "<group>";
@@ -97,6 +89,70 @@
 				457FD039253C2AEA0067FCEB /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		457FD0DD253D934A0067FCEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				457FD025253B6B010067FCEB /* ViewController.swift */,
+				457FD044253CACBA0067FCEB /* DataViewerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		457FD0DE253D93550067FCEB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				457FD037253C2AEA0067FCEB /* HealthKitQuickFamiliarizationTest.entitlements */,
+				457FD021253B6B010067FCEB /* AppDelegate.swift */,
+				457FD023253B6B010067FCEB /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		457FD0DF253D935E0067FCEB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				457FD027253B6B010067FCEB /* Main.storyboard */,
+				457FD02C253B6B010067FCEB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		457FD0E0253D93710067FCEB /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				457FD02F253B6B010067FCEB /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		457FD0E1253D937C0067FCEB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				457FD02A253B6B010067FCEB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		457FD0E2253D93870067FCEB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				457FD03C253C2E750067FCEB /* HKSetupAssistant.swift */,
+				457FD040253CAB3D0067FCEB /* ProfileDataStore.swift */,
+				457FD0E3253D938D0067FCEB /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		457FD0E3253D938D0067FCEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				457FD04E253CAFE70067FCEB /* HKBiologicalSex+StringRepresentation.swift */,
+				457FD04F253CAFE70067FCEB /* HKBloodType+StringRepresentation.swift */,
+				457FD047253CAF340067FCEB /* UserHealthProfile.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE4YFXSB23;
 				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE4YFXSB23;
 				INFOPLIST_FILE = HealthKitQuickFamiliarizationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
